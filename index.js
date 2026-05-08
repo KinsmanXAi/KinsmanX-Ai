@@ -1,5 +1,5 @@
 /**
- * Laser Md Bot - A WhatsApp Bot
+ * KinsmanX Ai Bot - A WhatsApp Bot
  * Copyright (c) 2024 Professor
  * 
  * This program is free software: you can redistribute it and/or modify
@@ -70,10 +70,10 @@ setInterval(() => {
     }
 }, 30_000) // check every 30 seconds
 
-let phoneNumber = "50939032060"
+let phoneNumber = "0534822019"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
-global.botname = "LASER MD"
+global.botname = "KinsmanX Ai"
 global.themeemoji = "•"
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
