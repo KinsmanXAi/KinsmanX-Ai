@@ -4,7 +4,7 @@ const path = require('path');
 
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
-╭━━━━〔 *${settings.botName || 'LASER-MD'}* 〕━━━━╮
+╭━━━━〔 *${settings.botName || 'KinsmanX Ai'}* 〕━━━━╮
 ┃ 🛠️ Version: *${settings.version || '3.0.0'}*
 ┃ 👤 Owner: *${settings.botOwner || 'Dev Weed'}*
 ┃ 📺 YT: ${global.ytch}
@@ -89,7 +89,7 @@ async function helpCommand(sock, chatId, message) {
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363407561123100@newsletter',
-                newsletterName: 'LASER MD',
+                newsletterName: 'KinsmanX Ai',
                 serverMessageId: -1
             }
         };
